@@ -15,7 +15,12 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background: rgb(192, 0, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(192, 0, 255, 1) 0%,
+    rgba(80, 157, 255, 1) 100%
+  );
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -45,13 +50,19 @@
   width: 50%;
 }
 .input {
+  border-radius: 10px;
   height: 50px;
   margin-bottom: 10px;
+  font-size: 1.3rem;
+  border-style: none;
 }
 .button {
+  border-radius: 10px;
+  border-style: none;
+  font-size: 1.3rem;
   height: 50px;
   width: 50%;
   align-self: center;
-  background-color: #61dafb;
-  color: #fff;
+  background-color: #06baf1;
+  color: #000;
 }
