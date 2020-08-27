@@ -13,7 +13,7 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  d {
     /* animation: App-logo-spin infinite 20s linear; */
   }
 }
@@ -52,7 +52,7 @@
   font-size: 2rem;
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 40%;
 }
 .input {
   flex: 2;
@@ -61,6 +61,7 @@
   font-size: 1rem;
   border-style: none;
   background-color: #fafafac5;
+  border-radius: 10px;
   /* padding-left: 10px; */
   padding: 5px 10px;
 }
@@ -72,12 +73,13 @@
   align-self: center;
   background-color: #302f2fd2;
   color: rgb(136, 136, 136);
+  border-radius: 10px;
 }
 .Mini {
   height: 52px;
   padding: 5px;
   margin: 10px;
-  background-color: #f8f8f8ab;
+  /* background-color: #f8f8f8ab; */
 }
 .row {
   width: 100%;
@@ -99,9 +101,9 @@ a {
 }
 
 a {
-  flex: 1;
+  /* flex: 1; */
   justify-self: flex-end;
-  padding-right: 10px;
+  padding-right: 5px;
 }
 label {
   flex: 3;
@@ -111,5 +113,5 @@ label {
 }
 
 .Checkbox {
-  margin-left: 20px;
+  margin-left: 30px;
 }
